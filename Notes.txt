@@ -1,0 +1,22 @@
+- Single Page Application is a simple and one page web Application which renders and reloads UI components dynamically on the client browser within a single web page.
+- React is a library which organizes pieces of UI code of web applications using React components.
+- A react component is a UI piece with a JavaScript function which has its own logic and returns a markup.
+- React component tag must always start with uppercase initial letter, and html tags should be lower case.
+    - Ex: function MyButton(){
+        return(
+            <Button>UI Button</Button>
+        );
+    }
+- Nesting the component into another main component(export default makes it the main component):
+    - Ex: export default function MyApp() {
+        return(
+            <MyButton/>
+        );
+    }
+- Limitations of React:
+    - React does not has its own server-side business logic and databases handling mechanism.
+
+- Project Environments:
+    - npm start: runs the react app in development mode and the page gets reloaded on every single edit in code.
+    - npm test: lauched the test runner in the interactive watch/test mode.
+    - npm run build: builds the app for production to the build folder, bundling react in production mode and optimizes the build for the best performance.
